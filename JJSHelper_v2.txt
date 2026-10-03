@@ -1,0 +1,98 @@
+==================================================
+  JJS Helper v2
+  by Rodrigo
+  Ferramentas de ajuda para o Skill Builder
+  Não injeta Ctrl nem simula teclas.
+==================================================
+
+DESCRIÇÃO
+---------
+Script de interface para o Roblox Skill Builder.
+Painel flutuante com guias, checklists e dicas
+organizadas por categoria. Funciona no PC e
+no celular. Não simula teclas nem injeta inputs.
+
+
+COMO USAR
+---------
+1. Execute o script no seu executor.
+2. O painel abre automaticamente no centro da tela.
+3. Arraste pelo Header (área do logo + nome).
+4. Clique em qualquer ferramenta para ver o guia.
+5. Use o botão VOLTAR para fechar o guia aberto.
+6. Use − para minimizar e X para fechar.
+
+
+SEÇÕES E FERRAMENTAS
+--------------------
+
+📋 COPY / PASTE
+  📦 COPY NODE       — Copiar um único Node
+  🌿 COPY BRANCH     — Copiar uma Branch inteira
+  🎯 COPY MOVE       — Copiar um Move completo
+  📥 PASTE           — Colar conteúdo copiado
+
+🧩 BUILDER
+  🔗 CONNECT BLOCK   — Sistema de conexão entre Nodes
+  🌳 BRANCH BLOCK    — Caminhos diferentes na lógica
+  💡 LIGHT BLOCK     — Controle de estado da lógica
+  🤖 NPC BLOCK       — Trabalhar com NPCs no Builder
+  🎞 ANIMATION       — Organização de animações
+  ✨ VFX             — Organizar efeitos visuais
+  🔊 SOUND           — Sincronizar sons
+  🎯 HITBOX          — Testar hitboxes
+  💨 VELOCITY        — Movimentos e velocidade
+
+📱 MOBILE
+  📱 MOBILE GUIDE    — Dicas para uso no celular
+  ⌨ MULTISELECT     — Limitação do Ctrl no celular
+  🖥 PC CONTROLS     — Referência dos controles de PC
+
+⏱ TIMELINE
+  ⏱ TIMELINE GUIDE  — Organizar eventos da habilidade
+  🎬 COMBO TIMING    — Sincronizar vários eventos
+
+📝 MOVE TOOLS
+  📝 MOVE CHECKLIST  — Checklist de revisão
+  🧪 TEST GUIDE      — Checklist de teste
+  🔍 DEBUG GUIDE     — Encontrar problemas
+
+⚙ HELPER
+  🔒 DRAG INFO       — Como mover o painel
+  🔄 RESET INFO      — Informação sobre posição
+
+
+CONTROLES DA JANELA
+-------------------
+  Arrastar   — Clique e arraste pelo Header
+  −          — Minimizar o painel
+  X          — Fechar o painel
+
+
+MOVE CHECKLIST (referência rápida)
+-----------------------------------
+  □ Animation
+  □ VFX
+  □ Sound
+  □ Hitbox
+  □ Damage
+  □ Cooldown
+  □ Movimento
+  □ Conexões
+  □ Teste final
+
+
+NOTAS TÉCNICAS
+--------------
+  - Parent: CoreGui (não reseta ao morrer)
+  - Versão antiga é removida automaticamente
+  - Canvas do scroll é calculado automaticamente
+  - Animação de abertura: Quint Out 0.22s
+  - Animação de minimizar: Quint In 0.18s
+  - Fonte: Font ID 12187375716 (fallback: GothamBold)
+  - Cor de destaque: RGB(0, 145, 255)
+
+
+==================================================
+  Arquivo gerado pelo LADRÃO HUB
+==================================================
